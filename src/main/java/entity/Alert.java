@@ -23,6 +23,7 @@ public class Alert {
     @Column
     private String alertMessage;
     //alertDate
+    @Column
     private LocalDateTime alertDate;
 
 
